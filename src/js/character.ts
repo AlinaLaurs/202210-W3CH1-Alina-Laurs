@@ -6,8 +6,6 @@ export class Character {
     lifeStatus: boolean;
     message: string;
 
-    // falta imagen
-
     static show = 'GoT';
     constructor(name: string, family: string, age: number) {
         this.name = name;
