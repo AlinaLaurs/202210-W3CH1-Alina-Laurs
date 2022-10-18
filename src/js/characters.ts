@@ -7,7 +7,7 @@ import { Adviser } from './adviser';
 const Jamie = new Fighter('Jamie', 'Lannister', 40, 'sword', 10);
 const Daenerys = new Fighter('Daenerys', 'Targaryen', 27, 'dragon', 9);
 
-const characters = [
+export const characters = [
     new King('Joffrey', 'Baratheon', 15, 4),
     Jamie,
     Daenerys,
@@ -16,3 +16,5 @@ const characters = [
 ];
 
 console.log(characters);
+
+// (<Adviser>characters[1]).hired(<Fighter>characters[0])
